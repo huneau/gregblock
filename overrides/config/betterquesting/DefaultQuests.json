@@ -1909,23 +1909,6 @@
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "exnihilocreatio:block_crucible",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
           "index:3": 1,
           "consume:1": 0,
           "requiredItems:9": {
@@ -1944,7 +1927,7 @@
           },
           "taskID:8": "bq_standard:retrieval"
         },
-        "2:10": {
+        "1:10": {
           "autoConsume:1": 0,
           "groupDetect:1": 0,
           "requiredFluids:9": {
@@ -2322,6 +2305,29 @@
               "id:8": "ceramics:unfired_clay",
               "Count:3": 1,
               "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:unfired_porcelain_brick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "ceramics:unfired_clay",
+              "Count:3": 1,
+              "Damage:2": 5,
               "OreDict:8": ""
             }
           },
