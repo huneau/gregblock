@@ -1,5 +1,6 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.FuelRecipe;
+import mods.gtadditions.recipe.GARecipeMaps;
 
 val hammer = RecipeMap.getByName("forge_hammer");
 val compressor = RecipeMap.getByName("compressor");
@@ -33,6 +34,7 @@ val bath = RecipeMap.getByName("chemical_bath");
 val mill = RecipeMap.getByName("wiremill");
 val centrifuge = RecipeMap.getByName("centrifuge");
 val semi_fluid = RecipeMap.getByName("semi_fluid_generator");
+val large_hammer = GARecipeMaps.LARGE_FORGE_HAMMER;
 
 //Ex Nihilo
 hammer.recipeBuilder().inputs([<ore:cobblestone>]).outputs([<minecraft:gravel>]).duration(16).EUt(10).buildAndRegister();
@@ -44,6 +46,16 @@ hammer.recipeBuilder().inputs([<ore:stoneDiorite>]).outputs([<exnihilocreatio:bl
 hammer.recipeBuilder().inputs([<ore:stoneAndesite>]).outputs([<exnihilocreatio:block_andesite_crushed>]).duration(16).EUt(10).buildAndRegister();
 hammer.recipeBuilder().inputs([<ore:stoneGranite>]).outputs([<exnihilocreatio:block_granite_crushed>]).duration(16).EUt(10).buildAndRegister();
 hammer.recipeBuilder().inputs([<exnihilocreatio:block_granite_crushed>]).outputs([<minecraft:sand:1>]).duration(16).EUt(10).buildAndRegister();
+
+large_hammer.recipeBuilder().inputs([<ore:cobblestone>]).fluidInputs([<liquid:lubricant>*2]).outputs([<minecraft:gravel>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:gravel>]).fluidInputs([<liquid:lubricant>*2]).outputs([<minecraft:sand>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:sand>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_dust>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:netherrack>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_netherrack_crushed>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:endstone>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_endstone_crushed>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:stoneDiorite>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_diorite_crushed>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:stoneAndesite>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_andesite_crushed>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<ore:stoneGranite>]).fluidInputs([<liquid:lubricant>*2]).outputs([<exnihilocreatio:block_granite_crushed>]).duration(16).EUt(10).buildAndRegister();
+large_hammer.recipeBuilder().inputs([<exnihilocreatio:block_granite_crushed>]).fluidInputs([<liquid:lubricant>*2]).outputs([<minecraft:sand:1>]).duration(16).EUt(10).buildAndRegister();
 
 //Useful
 lathe.recipeBuilder().inputs([<minecraft:stone>]).outputs([<exnihilocreatio:item_material:6>,<gregtech:meta_item_1:1328>*2]).duration(500).EUt(16).buildAndRegister();

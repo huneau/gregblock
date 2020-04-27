@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregBlock Rework",
-  "version": "3.3.1",
+  "version": "3.3.3",
   "author": "decal06",
   "files": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "projectID": 272302,
-      "fileID": 2690723,
+      "fileID": 2941010,
       "required": true
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 364851,
-      "fileID": 2939400,
+      "fileID": 2942075,
       "required": true
     },
     {
@@ -291,7 +291,7 @@
     },
     {
       "projectID": 243076,
-      "fileID": 2745458,
+      "fileID": 2940914,
       "required": true
     },
     {
