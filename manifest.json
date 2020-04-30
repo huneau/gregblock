@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregBlock Rework",
-  "version": "3.3.3",
+  "version": "3.4.0",
   "author": "decal06",
   "files": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "projectID": 285612,
-      "fileID": 2932525,
+      "fileID": 2943191,
       "required": true
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 364851,
-      "fileID": 2942075,
+      "fileID": 2944674,
       "required": true
     },
     {
@@ -430,8 +430,8 @@
       "required": true
     },
     {
-      "projectID": 309110,
-      "fileID": 2655843,
+      "projectID": 260912,
+      "fileID": 2745852,
       "required": true
     },
     {
@@ -440,8 +440,8 @@
       "required": true
     },
     {
-      "projectID": 260912,
-      "fileID": 2745852,
+      "projectID": 309110,
+      "fileID": 2655843,
       "required": true
     },
     {
@@ -450,13 +450,13 @@
       "required": true
     },
     {
-      "projectID": 248453,
-      "fileID": 2785465,
+      "projectID": 293327,
+      "fileID": 2865729,
       "required": true
     },
     {
-      "projectID": 293327,
-      "fileID": 2865729,
+      "projectID": 248453,
+      "fileID": 2785465,
       "required": true
     },
     {
@@ -470,8 +470,8 @@
       "required": true
     },
     {
-      "projectID": 237102,
-      "fileID": 2835289,
+      "projectID": 296657,
+      "fileID": 2576139,
       "required": true
     },
     {
@@ -480,8 +480,8 @@
       "required": true
     },
     {
-      "projectID": 296657,
-      "fileID": 2576139,
+      "projectID": 237102,
+      "fileID": 2835289,
       "required": true
     },
     {
@@ -490,13 +490,13 @@
       "required": true
     },
     {
-      "projectID": 243478,
-      "fileID": 2745657,
+      "projectID": 250957,
+      "fileID": 2630860,
       "required": true
     },
     {
-      "projectID": 250957,
-      "fileID": 2630860,
+      "projectID": 243478,
+      "fileID": 2745657,
       "required": true
     },
     {

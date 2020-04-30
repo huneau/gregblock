@@ -67,9 +67,6 @@ alloy.recipeBuilder().inputs([<ore:clayPorcelain>]).notConsumable(<gregtech:meta
 
 //Glasses
 
-
-//AE2 Compatability
-
 //Storage Drawers
 saw.recipeBuilder().inputs([<ore:drawerTrim>]).outputs([<storagedrawers:upgrade_template>*2]).EUt(4).duration(50).buildAndRegister();
 

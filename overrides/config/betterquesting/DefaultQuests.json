@@ -11811,7 +11811,7 @@
             "0:10": {
               "id:8": "gregtech:machine",
               "Count:3": 1,
-              "Damage:2": 2222,
+              "Damage:2": 820,
               "OreDict:8": ""
             }
           },
@@ -21617,7 +21617,7 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 2,
-          "consume:1": 1,
+          "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_1",
@@ -24802,7 +24802,7 @@
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
             "Count:3": 1,
-            "Damage:2": 2422,
+            "Damage:2": 2051,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -24811,8 +24811,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "Platinium group",
-          "desc:8": "The Only way to get Platinium and Palladium is by going through Platinium group Sludge."
+          "name:8": "Platinium chain Processing",
+          "desc:8": "Seriously ... good luck"
         }
       },
       "tasks:9": {
@@ -24825,59 +24825,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "forge:bucketfilled",
-              "Count:3": 1,
-              "tag:10": {
-                "FluidName:8": "nitric_acid",
-                "Amount:3": 1000
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 81,
-              "Damage:2": 6100,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 9,
-              "Damage:2": 2422,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "Damage:2": 10051,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "gregtech:meta_item_1",
-              "Count:3": 1,
-              "Damage:2": 10049,
+              "Damage:2": 2051,
               "OreDict:8": ""
             }
           },
@@ -67960,22 +67910,12 @@
             "0:10": {
               "id:8": "xnet:netcable",
               "Count:3": 64,
-              "tag:10": {
-                "display:10": {
-                  "LocName:8": "tile.xnet.netcable_blue.name"
-                }
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "xnet:connector",
               "Count:3": 1,
-              "tag:10": {
-                "display:10": {
-                  "LocName:8": "tile.xnet.connector_blue.name"
-                }
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             },

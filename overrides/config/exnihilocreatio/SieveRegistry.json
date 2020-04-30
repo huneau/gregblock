@@ -1615,6 +1615,16 @@
       "drop": "gtadditions:ex_nihilo_meta_item:1904",
       "chance": 0.0101,
       "meshLevel": 4
+    },
+    {
+      "drop": "gtadditions:ex_nihilo_meta_item:1894",
+      "chance": 0.0500,
+      "meshLevel": 4
+    },
+    {
+      "drop": "gtadditions:ex_nihilo_meta_item:1900",
+      "chance": 0.060,
+      "meshLevel": 4
     }
   ],
   "exnihilocreatio:block_netherrack_crushed:0": [
