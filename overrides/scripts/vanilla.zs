@@ -954,8 +954,15 @@ recipes.addShaped(<forestry:grafter>,[
 [<ore:stickWood>]
 ]);
 
+recipes.remove(<forestry:bottler>);
+recipes.addShaped(<forestry:bottler>,[
+[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>],
+[<ore:gearSteel>,<forestry:sturdy_machine>,<ore:gearSteel>],
+[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>]
+]);
+
+
 //Removal
-mods.jei.JEI.removeAndHide(<forestry:bottler>);
 mods.jei.JEI.removeAndHide(<forestry:centrifuge>);
 mods.jei.JEI.removeAndHide(<forestry:fermenter>);
 mods.jei.JEI.removeAndHide(<forestry:squeezer>);
