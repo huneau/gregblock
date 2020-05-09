@@ -147,3 +147,19 @@ hammer.recipeBuilder().inputs([<minecraft:prismarine_shard>]).outputs([<minecraf
 //lava
 var lavaRecipe = FuelRecipe.create(<liquid:lava>*32, 3,32);
 mods.gregtech.recipe.RecipeMaps.SEMI_FLUID_GENERATOR_FUELS.addRecipe(lavaRecipe);
+
+reactor.recipeBuilder().duration(100)
+    .inputs([<gregtech:meta_item_1:2054>*2, <gregtech:meta_item_1:2063>])
+    .fluidInputs([<liquid:oxygen>*5000])
+    .outputs([<gregtech:meta_item_1:2832>])
+    .buildAndRegister();
+
+
+alloy.recipeBuilder().duration(600).EUt(16).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13018>*64]).outputs([<gregtech:meta_item_1:32000>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(64).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13109>*64]).outputs([<gregtech:meta_item_1:32001>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(256).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13062>*64]).outputs([<gregtech:meta_item_1:32002>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(1024).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13026>*64]).outputs([<gregtech:meta_item_1:32003>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(4096).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13051>*64]).outputs([<gregtech:meta_item_1:32004>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(16384).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13047>*64]).outputs([<gregtech:meta_item_1:32005>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(65536).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13307>*64]).outputs([<gregtech:meta_item_1:32006>]).buildAndRegister();
+alloy.recipeBuilder().duration(600).EUt(262144).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13993>*64]).outputs([<gregtech:meta_item_1:32007>]).buildAndRegister();

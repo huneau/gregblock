@@ -181,7 +181,7 @@ recipes.addShaped(<refinedstorage:storage_part:2>,[
 [<refinedstorage:processor:4>,<refinedstorage:storage_part:1>,<refinedstorage:processor:4>]
 ]);
 recipes.remove(<refinedstorage:storage_part:3>);
-recipes.addShaped(<refinedstorage:storage_part:2>,[
+recipes.addShaped(<refinedstorage:storage_part:3>,[
 [<refinedstorage:processor:5>,refinedPlate,<refinedstorage:processor:5>],
 [<refinedstorage:storage_part:2>,<minecraft:redstone>,<refinedstorage:storage_part:2>],
 [<refinedstorage:processor:5>,<refinedstorage:storage_part:2>,<refinedstorage:processor:5>]
@@ -288,13 +288,13 @@ recipes.remove(<refinedstorage:storage_disk:3>);
 recipes.addShapeless(<refinedstorage:storage_disk:3>,[<refinedstorage:storage_housing>,<refinedstorage:storage_part:3>]);
 recipes.remove(<refinedstorage:storage_disk:4>);
 recipes.remove(<refinedstorage:fluid_storage_disk:0>);
-recipes.addShapeless(<refinedstorage:storage_disk:0>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:0>]);
+recipes.addShapeless(<refinedstorage:fluid_storage_disk:0>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:0>]);
 recipes.remove(<refinedstorage:fluid_storage_disk:1>);
-recipes.addShapeless(<refinedstorage:storage_disk:1>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:1>]);
+recipes.addShapeless(<refinedstorage:fluid_storage_disk:1>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:1>]);
 recipes.remove(<refinedstorage:fluid_storage_disk:2>);
-recipes.addShapeless(<refinedstorage:storage_disk:2>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:2>]);
+recipes.addShapeless(<refinedstorage:fluid_storage_disk:2>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:2>]);
 recipes.remove(<refinedstorage:fluid_storage_disk:3>);
-recipes.addShapeless(<refinedstorage:storage_disk:3>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:3>]);
+recipes.addShapeless(<refinedstorage:fluid_storage_disk:3>,[<refinedstorage:storage_housing>,<refinedstorage:fluid_storage_part:3>]);
 recipes.remove(<refinedstorage:fluid_storage_disk:4>);
 recipes.remove(<refinedstorage:fluid_storage_part:0>);
 recipes.addShaped(<refinedstorage:fluid_storage_part:0>,[

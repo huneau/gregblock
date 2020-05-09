@@ -4,6 +4,7 @@
   "max_height": 50,
   "min_height": 20,
   "surface_stone_material": "lithium",
+
   "generator": {
     "type": "ellipsoid",
     "radius": [8, 8]
