@@ -2,6 +2,15 @@ import mods.gregtech.recipe.RecipeMap;
 val reactor = RecipeMap.getByName("chemical_reactor");
 val assembly_line = RecipeMap.getByName("assembly_line");
 
+recipes.removeByRecipeName("extrautils2:shortcut_hopper");
+recipes.removeByRecipeName("extrautils2:shortcut_chest");
+recipes.removeByRecipeName("extrautils2:shortcut_stick");
+recipes.removeByRecipeName("extrautils2:angel_ring_1");
+recipes.removeByRecipeName("extrautils2:angel_ring_2");
+recipes.removeByRecipeName("extrautils2:angel_ring_3");
+recipes.removeByRecipeName("extrautils2:angel_ring_4");
+recipes.removeByRecipeName("extrautils2:angel_ring_5");
+
 recipes.remove(<extrautils2:miner>);
 recipes.addShapeless(<extrautils2:miner>, [<minecraft:dropper>,<extrautils2:ingredients:0>, <gregtech:meta_tool:1>.withTag({"GT.ToolStats": {Material: "flint"}}).noReturn()]);
 

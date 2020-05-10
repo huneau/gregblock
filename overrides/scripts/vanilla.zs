@@ -6,9 +6,6 @@ recipes.remove(<minecraft:golden_carrot>);
 recipes.remove(<minecraft:magma_cream>);
 
 //No exploits
-recipes.removeByRecipeName("extrautils2:shortcut_hopper");
-recipes.removeByRecipeName("extrautils2:shortcut_chest");
-recipes.removeByRecipeName("extrautils2:shortcut_stick");
 recipes.remove(<minecraft:dirt:1>);
 recipes.addShapeless(<minecraft:dirt:1>*3,[<ore:dirt>,<ore:dirt>,<ore:dirt>,<ore:gravel>]);
 
@@ -674,7 +671,6 @@ mods.jei.JEI.hide(<excompressum:iron_mesh>);
 
 //Storage Drawers
 //Drawer Recipe Changes
-mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:*>);
 recipes.remove(<storagedrawers:framingtable>);
 recipes.addShaped(<storagedrawers:framingtable>,[
 [<ore:drawerTrim>,<ore:drawerTrim>,<ore:drawerTrim>],

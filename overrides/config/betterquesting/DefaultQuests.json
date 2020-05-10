@@ -23829,7 +23829,8 @@
       "preRequisites:11": [
         103,
         176,
-        222
+        222,
+        65
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23969,22 +23970,14 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "gtadditions:ex_nihilo_meta_item",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 1307,
-                "orig_id:8": "gtadditions:gb_meta_item"
-              },
               "Damage:2": 1307,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "gtadditions:ex_nihilo_meta_item",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 1309,
-                "orig_id:8": "gtadditions:gb_meta_item"
-              },
               "Damage:2": 1309,
               "OreDict:8": ""
             }
