@@ -426,7 +426,7 @@ recipes.addShaped(<refinedstorage:wireless_transmitter>,[
 [refinedPlate,<refinedstorage:processor:5>,refinedPlate]
 ]);
 recipes.remove(<refinedstorage:network_transmitter>);
-recipes.addShaped(<refinedstorage:wireless_transmitter>,[
+recipes.addShaped(<refinedstorage:network_transmitter>,[
 [<minecraft:ender_pearl>, <minecraft:ender_pearl>,<minecraft:ender_pearl>],
 [<refinedstorage:core:1>,controllerHV,<refinedstorage:core:0>],
 [<refinedstorage:processor:5>,<refinedstorage:processor:5>,<refinedstorage:processor:5>]
