@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "gregicality skyblock edition (1)",
-  "version": "4.1.3",
+  "name": "gregicality skyblock edition",
+  "version": "4.2.0",
   "author": "decal06",
   "files": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "projectID": 364851,
-      "fileID": 2954808,
+      "fileID": 2962365,
       "required": true
     },
     {
@@ -110,13 +110,13 @@
       "required": true
     },
     {
-      "projectID": 245211,
-      "fileID": 2667280,
+      "projectID": 283644,
+      "fileID": 2694382,
       "required": true
     },
     {
-      "projectID": 283644,
-      "fileID": 2694382,
+      "projectID": 245211,
+      "fileID": 2667280,
       "required": true
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 2954902,
+      "fileID": 2958236,
       "required": true
     },
     {
@@ -240,13 +240,13 @@
       "required": true
     },
     {
-      "projectID": 226447,
-      "fileID": 2477566,
+      "projectID": 250398,
+      "fileID": 2926366,
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 2926366,
+      "projectID": 226447,
+      "fileID": 2477566,
       "required": true
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "projectID": 293327,
-      "fileID": 2865729,
+      "fileID": 2953488,
       "required": true
     },
     {
@@ -320,13 +320,13 @@
       "required": true
     },
     {
-      "projectID": 220954,
-      "fileID": 2881277,
+      "projectID": 278882,
+      "fileID": 2716712,
       "required": true
     },
     {
-      "projectID": 278882,
-      "fileID": 2716712,
+      "projectID": 220954,
+      "fileID": 2881277,
       "required": true
     },
     {
@@ -455,13 +455,13 @@
       "required": true
     },
     {
-      "projectID": 232791,
-      "fileID": 2818064,
+      "projectID": 238361,
+      "fileID": 2845522,
       "required": true
     },
     {
-      "projectID": 238361,
-      "fileID": 2845522,
+      "projectID": 232791,
+      "fileID": 2818064,
       "required": true
     },
     {

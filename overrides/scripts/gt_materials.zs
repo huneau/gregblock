@@ -22,3 +22,5 @@ var materialList = MaterialRegistry.getAllMaterials();
 
 <material:iron>.addFlags(["GENERATE_SMALL_GEAR"]);
 <material:nether_star>.addFlags(["GENERATE_ORE"]);
+
+<material:uranium_radioactive>.addFlags(["GENERATE_ORE"]);

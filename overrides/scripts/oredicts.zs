@@ -11,6 +11,17 @@ var siliconNaquadahWafer = <gregtech:meta_item_2:32442> ;
 <ore:ingotCopper>.remove(<forestry:ingot_copper>);
 <ore:blockGlassColorless>.add(<tconstruct:clear_glass>);
 
+val basiccircuit = <ore:circuitBasic>;
+basiccircuit.remove(<gregtech:meta_item_2:32507>);
+
+val goodcircuit = <ore:circuitGood>;
+goodcircuit.remove(<gregtech:meta_item_2:32489>);
+goodcircuit.remove(<gregtech:meta_item_2:32490>);
+
+val elitecircuit = <ore:circuitElite>;
+elitecircuit.remove(<gregtech:meta_item_2:32495>);
+elitecircuit.remove(<gregtech:meta_item_2:32496>);
+
 //For quests
 <ore:anyInputHatch>.add(<gregtech:machine:702>);
 <ore:anyInputHatch>.add(<gregtech:machine:712>);

@@ -414,7 +414,7 @@ recipes.addShaped(<refinedstorage:detector>,[
 recipes.remove(<refinedstorage:relay>);
 recipes.addShapeless(<refinedstorage:relay>,[controllerHV,<refinedstorage:cable>, <minecraft:redstone_torch>]);
 recipes.remove(<refinedstorage:interface>);
-recipes.addShaped(<refinedstorage:detector>,[
+recipes.addShaped(<refinedstorage:interface>,[
 [refinedPlate, <refinedstorage:importer>,refinedPlate],
 [<minecraft:redstone>,<refinedstorage:cable>,<minecraft:redstone>],
 [refinedPlate,<refinedstorage:exporter>,refinedPlate]
@@ -437,6 +437,14 @@ recipes.addShaped(<refinedstorage:network_receiver>,[
 [<refinedstorage:core:0>,controllerHV,<refinedstorage:core:1>],
 [<refinedstorage:processor:5>,<refinedstorage:processor:5>,<refinedstorage:processor:5>]
 ]);
+
+recipes.remove(<refinedstorage:filter>);
+recipes.addShaped(<refinedstorage:filter>,[
+[refinedPlate, <minecraft:paper>,refinedPlate],
+[<minecraft:paper>,<minecraft:hopper> , <minecraft:paper>],
+[refinedPlate,<minecraft:paper>,refinedPlate]
+]);
+
 furnace.remove(<refinedstorage:silicon>);
 furnace.remove(<refinedstorage:processor:3>);
 furnace.remove(<refinedstorage:processor:4>);
@@ -950,15 +958,9 @@ recipes.addShaped(<forestry:grafter>,[
 [<ore:stickWood>]
 ]);
 
-recipes.remove(<forestry:bottler>);
-recipes.addShaped(<forestry:bottler>,[
-[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>],
-[<ore:gearSteel>,<forestry:sturdy_machine>,<ore:gearSteel>],
-[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>]
-]);
-
 
 //Removal
+mods.jei.JEI.removeAndHide(<forestry:bottler>);
 mods.jei.JEI.removeAndHide(<forestry:centrifuge>);
 mods.jei.JEI.removeAndHide(<forestry:fermenter>);
 mods.jei.JEI.removeAndHide(<forestry:squeezer>);

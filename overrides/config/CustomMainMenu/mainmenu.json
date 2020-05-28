@@ -56,7 +56,7 @@
             }
         },
         "Bug Report": {
-            "text": "Bug Repport",
+            "text": "Bug Report",
             "tooltip": "Report a bug",
             "posX": -100,
             "posY": 144,

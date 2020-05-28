@@ -634,7 +634,7 @@
       "meshLevel": 3
     },
     {
-      "drop": "gtadditions:ex_nihilo_meta_item:75",
+      "drop": "gtadditions:ex_nihilo_meta_item:822",
       "chance": 0.0169,
       "meshLevel": 3
     },
@@ -1028,7 +1028,7 @@
       "meshLevel": 3
     },
     {
-      "drop": "gtadditions:ex_nihilo_meta_item:75",
+      "drop": "gtadditions:ex_nihilo_meta_item:822",
       "chance": 0.0169,
       "meshLevel": 3
     },
@@ -1320,7 +1320,7 @@
       "meshLevel": 3
     },
     {
-      "drop": "gtadditions:ex_nihilo_meta_item:75",
+      "drop": "gtadditions:ex_nihilo_meta_item:822",
       "chance": 0.0169,
       "meshLevel": 3
     },
@@ -1592,8 +1592,8 @@
       "meshLevel": 3
     },
     {
-      "drop": "gtadditions:ex_nihilo_meta_item:1877",
-      "chance": 0.0128,
+      "drop": "gtadditions:ex_nihilo_meta_item:1878",
+      "chance": 0.0058,
       "meshLevel": 3
     },
     {
@@ -1623,7 +1623,7 @@
     },
     {
       "drop": "gtadditions:ex_nihilo_meta_item:1900",
-      "chance": 0.060,
+      "chance": 0.015,
       "meshLevel": 4
     }
   ],

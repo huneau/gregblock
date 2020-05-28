@@ -1,4 +1,5 @@
 import mods.gregtech.recipe.RecipeMap;
+import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.FuelRecipe;
 import mods.gtadditions.recipe.GARecipeMaps;
 
@@ -34,7 +35,7 @@ val bath = RecipeMap.getByName("chemical_bath");
 val mill = RecipeMap.getByName("wiremill");
 val centrifuge = RecipeMap.getByName("centrifuge");
 val semi_fluid = RecipeMap.getByName("semi_fluid_generator");
-val large_hammer = GARecipeMaps.LARGE_FORGE_HAMMER;
+val large_hammer = GARecipeMaps.LARGE_FORGE_HAMMER_RECIPES;
 
 //Ex Nihilo
 large_hammer.findRecipe(32,[<minecraft:cobblestone>],[<liquid:lubricant>*2]).remove();
@@ -141,6 +142,7 @@ alloy.findRecipe(16,[<minecraft:redstone>*4,<gregtech:meta_item_1:2087>],[null])
 
 
 
+
 //Fix mistakes
 centrifuge.findRecipe(5,[null],[<liquid:liquid_air>*53000]).remove();
 
@@ -160,3 +162,5 @@ alloy.recipeBuilder().duration(600).EUt(4096).notConsumable(<gregtech:meta_item_
 alloy.recipeBuilder().duration(600).EUt(16384).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13047>*64]).outputs([<gregtech:meta_item_1:32005>]).buildAndRegister();
 alloy.recipeBuilder().duration(600).EUt(65536).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13307>*64]).outputs([<gregtech:meta_item_1:32006>]).buildAndRegister();
 alloy.recipeBuilder().duration(600).EUt(262144).notConsumable(<gregtech:meta_item_1:32304>).inputs([<gregtech:meta_item_1:13993>*64]).outputs([<gregtech:meta_item_1:32007>]).buildAndRegister();
+
+
