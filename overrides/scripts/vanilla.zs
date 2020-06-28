@@ -1075,7 +1075,6 @@ mods.jei.JEI.removeAndHide(<floodlights:carbon_floodlight>);
 furnace.setFuel(<contenttweaker:uncompressed_charcoal>, 200);
 furnace.setFuel(<contenttweaker:uncompressed_lignite_coal>, 200);
 furnace.setFuel(<contenttweaker:uncompressed_coal_coke>, 400);
-furnace.setFuel(<contenttweaker:uncompressed_lignite_coke>, 400);
 
 furnace.setFuel(<forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), 6400);
 
@@ -1084,10 +1083,8 @@ recipes.addShapeless(<minecraft:coal:1>,[<contenttweaker:uncompressed_charcoal>,
 recipes.addShapeless(<contenttweaker:uncompressed_lignite_coal>*6,[<ore:gemLignite>]);
 recipes.addShapeless(<gregtech:meta_item_1:8211>,[<contenttweaker:uncompressed_lignite_coal>,<contenttweaker:uncompressed_lignite_coal>,<contenttweaker:uncompressed_lignite_coal>,<contenttweaker:uncompressed_lignite_coal>,<contenttweaker:uncompressed_lignite_coal>,<contenttweaker:uncompressed_lignite_coal>]);
 
-recipes.addShapeless(<contenttweaker:uncompressed_coal_coke>*8,[<ore:fuelCoke>]);
-recipes.addShapeless(<gregtech:meta_item_1:8997>,[<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>]);
-recipes.addShapeless(<contenttweaker:uncompressed_lignite_coke>*6,[<ore:gemLigniteCoke>]);
-recipes.addShapeless(<gregtech:meta_item_1:8879>,[<contenttweaker:uncompressed_lignite_coke>,<contenttweaker:uncompressed_lignite_coke>,<contenttweaker:uncompressed_lignite_coke>,<contenttweaker:uncompressed_lignite_coke>,<contenttweaker:uncompressed_lignite_coke>,<contenttweaker:uncompressed_lignite_coke>]);
+recipes.addShapeless(<contenttweaker:uncompressed_coal_coke>*8,[<ore:gemCoke>]);
+recipes.addShapeless(<ore:gemCoke>.firstItem ,[<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>,<contenttweaker:uncompressed_coal_coke>]);
 
 
 //Tinkers
