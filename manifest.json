@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "gregicality skyblock edition",
-  "version": "4.2.0",
+  "version": "4.2.5",
   "author": "decal06",
   "files": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "projectID": 364851,
-      "fileID": 2962365,
+      "fileID": 2968023,
       "required": true
     },
     {
@@ -71,7 +71,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2926584,
+      "fileID": 2966845,
       "required": true
     },
     {
@@ -176,7 +176,7 @@
     },
     {
       "projectID": 241967,
-      "fileID": 2733536,
+      "fileID": 2966941,
       "required": true
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 2958236,
+      "fileID": 2969711,
       "required": true
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "projectID": 224728,
-      "fileID": 2933983,
+      "fileID": 2975510,
       "required": true
     },
     {
@@ -301,7 +301,7 @@
     },
     {
       "projectID": 248787,
-      "fileID": 2496585,
+      "fileID": 2987247,
       "required": true
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "projectID": 237102,
-      "fileID": 2835289,
+      "fileID": 2985813,
       "required": true
     },
     {
@@ -331,7 +331,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 2847112,
+      "fileID": 2988828,
       "required": true
     },
     {
@@ -371,7 +371,7 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2891572,
+      "fileID": 2985811,
       "required": true
     },
     {
