@@ -431,6 +431,37 @@ recipes.addShaped(<refinedstorage:network_transmitter>,[
 [<refinedstorage:core:1>,controllerHV,<refinedstorage:core:0>],
 [<refinedstorage:processor:5>,<refinedstorage:processor:5>,<refinedstorage:processor:5>]
 ]);
+recipes.remove(<refinedstorage:wireless_grid>);
+recipes.addShaped(<refinedstorage:wireless_grid>,[
+[refinedPlate,<minecraft:ender_pearl>,refinedPlate],
+[refinedPlate,<refinedstorage:grid>,refinedPlate],
+[refinedPlate,<refinedstorage:processor:5>,refinedPlate]
+]);
+recipes.remove(<refinedstorage:wireless_fluid_grid>);
+recipes.addShaped(<refinedstorage:wireless_fluid_grid>,[
+[refinedPlate,<minecraft:ender_pearl>,refinedPlate],
+[refinedPlate,<refinedstorage:grid:3>,refinedPlate],
+[refinedPlate,<refinedstorage:processor:5>,refinedPlate]
+]);
+recipes.remove(<refinedstorage:security_manager>);
+recipes.addShaped(<refinedstorage:security_manager>,[
+[refinedPlate,<ore:chest>,refinedPlate],
+[<refinedstorage:security_card>,controllerHV,<refinedstorage:security_card>],
+[refinedPlate,<refinedstorage:security_card>,refinedPlate]
+]);
+recipes.remove(<refinedstorage:security_card>);
+recipes.addShaped(<refinedstorage:security_card>,[
+[refinedPlate,refinedPlate,refinedPlate],
+[<refinedstorage:network_card>,<refinedstorage:processor:5>,<refinedstorage:network_card>],
+[refinedPlate,refinedPlate,refinedPlate]
+]);
+recipes.remove(<refinedstorage:portable_grid>);
+recipes.addShaped(<refinedstorage:portable_grid>,[
+[refinedPlate,<refinedstorage:grid:0>,refinedPlate],
+[refinedPlate,<refinedstorage:controller:0>,refinedPlate],
+[refinedPlate,<refinedstorage:grid:3>,refinedPlate]
+]);
+
 recipes.remove(<refinedstorage:network_receiver>);
 recipes.addShaped(<refinedstorage:network_receiver>,[
 [<minecraft:ender_pearl>, <minecraft:ender_pearl>,<minecraft:ender_pearl>],
@@ -443,6 +474,13 @@ recipes.addShaped(<refinedstorage:filter>,[
 [refinedPlate, <minecraft:paper>,refinedPlate],
 [<minecraft:paper>,<minecraft:hopper> , <minecraft:paper>],
 [refinedPlate,<minecraft:paper>,refinedPlate]
+]);
+
+recipes.remove(<refinedstorage:wrench>);
+recipes.addShaped(<refinedstorage:wrench>,[
+[refinedPlate, <refinedstorage:processor:3>,refinedPlate],
+[refinedPlate,refinedPlate , refinedPlate],
+[null,refinedPlate,null]
 ]);
 
 furnace.remove(<refinedstorage:silicon>);
