@@ -388,7 +388,7 @@ recipes.addShaped(<refinedstorage:constructor>,[
 [refinedPlate,<refinedstorage:processor:4>,refinedPlate]
 ]);
 recipes.remove(<refinedstorage:destructor>);
-recipes.addShaped(<refinedstorage:constructor>,[
+recipes.addShaped(<refinedstorage:destructor>,[
 [refinedPlate, <refinedstorage:core:1>,refinedPlate],
 [<minecraft:redstone>,<refinedstorage:cable>,<minecraft:redstone>],
 [refinedPlate,<refinedstorage:processor:4>,refinedPlate]
